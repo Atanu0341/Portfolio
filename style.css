@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar Styling Start */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 14rem;
+    z-index: -1;
+}
+
+.nav-logo-text {
+    margin-left: -3.9rem;
+    margin-top: 23px;
+    font-size: 35px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 2rem;
+    padding: 0 4em;
+}
+
+.nav-items div a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Navbar Styling End */
+
+
+/* Navbar Transition Start */
+
+.nav-items div{
+    transition: all 0.5s;
+}
+
+.nav-items div:hover{
+    transition: all 0.8s;
+}
+
+/* Navbar Transition End */
