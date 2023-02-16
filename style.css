@@ -49,12 +49,16 @@
 
 /* Navbar Transition Start */
 
-.nav-items div{
+.nav-items div {
     transition: all 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
 }
 
-.nav-items div:hover{
+.nav-items div:hover {
     transition: all 0.8s;
+    font-weight: bold;
 }
 
 /* Navbar Transition End */
