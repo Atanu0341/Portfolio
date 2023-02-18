@@ -62,3 +62,29 @@
 }
 
 /* Navbar Transition End */
+
+/* main content */
+/* left side */
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 0px;
+    padding-bottom: 8rem;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.faded-text{
+    user-select: none;
+    font-size: 7rem;
+color: gray;
+
+}
