@@ -100,3 +100,9 @@
     gap: 2rem;
     justify-content: center;
 }
+
+.main-heading {
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
+  }
