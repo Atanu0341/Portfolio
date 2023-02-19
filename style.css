@@ -78,13 +78,17 @@
     padding-bottom: 8rem;
 }
 
-.absolute{
+.absolute {
     position: absolute;
 }
 
-.faded-text{
+.faded-text {
     user-select: none;
     font-size: 7rem;
-color: gray;
-
+    color: gray;
+    bottom: -16%;
+    z-index: -0;
+    left: -5%;
+    font-weight: bold;
+    transition: all 3s;
 }
