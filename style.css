@@ -105,4 +105,9 @@
     font-size: 35px;
     color: #343d68;
     font-weight: 500;
-  }
+}
+
+.sub-heading{
+    font-size: 45px;
+    line-height: 45px;
+}
