@@ -175,3 +175,17 @@
     transition: all 1s;
     animation: scaleImage 5s linear infinite;
 }
+
+.user-image img{
+    z-index: -9;
+}
+
+.icon-dots{
+    z-index: -9;
+    bottom: 1rem;
+    right: 0;
+    animation-name: dotsAnimation;
+    animation-duration: 5s;
+  }
+
+}
