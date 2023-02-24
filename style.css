@@ -197,13 +197,13 @@
     animation-iteration-count: infinite;
 }
 
-.icon-circle{
+.icon-circle {
     bottom: 0;
     left: 0;
     animation: shakeEffect 6s linear infinite;
 }
 
-.icon-zigzak{
+.icon-zigzak {
     z-index: 10;
     top: 1.5em;
     left: -0.3em;
