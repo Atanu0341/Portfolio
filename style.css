@@ -209,3 +209,9 @@
     left: -0.3em;
     animation: zigzakAnimation 5s ease-in infinite;
 }
+
+.icon-plus {
+    top: -0.8rem;
+    left: 50%;
+    animation: shakeEffectPlus 5s ease-in infinite;
+}
