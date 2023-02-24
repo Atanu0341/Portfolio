@@ -176,16 +176,23 @@
     animation: scaleImage 5s linear infinite;
 }
 
-.user-image img{
+.user-image img {
     z-index: -9;
 }
 
-.icon-dots{
+.icon-dots {
     z-index: -9;
     bottom: 1rem;
     right: 0;
     animation-name: dotsAnimation;
     animation-duration: 5s;
-  }
+    animation-iteration-count: infinite;
+}
 
+.icon-cube {
+    top: -0.8em;
+    right: 1em;
+    animation-name: cubeRotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
