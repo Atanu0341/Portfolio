@@ -179,6 +179,21 @@
 .user-image img {
     z-index: -9;
 }
+@keyframes scaleImage{
+    0%{
+        filter: grayscale(1);
+        scale: 1;
+    }
+    50%{
+        filter: grayscale(0);
+        scale: 0.9;
+        box-shadow: 3px 3px 10px rgb(0, 131, 254);
+    }
+    100%{
+        filter: grayscale(1);
+        scale: 1;
+    }
+}
 
 .icon-dots {
     z-index: -9;
@@ -215,3 +230,4 @@
     left: 50%;
     animation: shakeEffectPlus 5s ease-in infinite;
 }
+
