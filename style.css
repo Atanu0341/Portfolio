@@ -23,12 +23,12 @@
 }
 
 .nav-logo {
-    width: 14rem;
+    width: 160px;
     z-index: -1;
 }
 
 .nav-logo-text {
-    margin-left: -3.9rem;
+    margin-left: -42.4px;
     margin-top: 23px;
     font-size: 35px;
 }
@@ -197,7 +197,7 @@
 
 .icon-dots {
     z-index: 9;
-    bottom: 1rem;
+    bottom: -1rem;
     right: 0;
     animation-name: dotsAnimation;
     animation-duration: 5s;
