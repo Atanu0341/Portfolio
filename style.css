@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
+    /* padding: 16px; */
 }
 
 .logo-group {
@@ -170,7 +170,7 @@
 }
 
 .user-image {
-    padding: 2.5rem;
+    padding: 1.5rem;
     filter: grayscale(1);
     transition: all 1s;
     animation: scaleImage 5s linear infinite;
@@ -196,13 +196,24 @@
 }
 
 .icon-dots {
-    z-index: -9;
+    z-index: 9;
     bottom: 1rem;
     right: 0;
     animation-name: dotsAnimation;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+@keyframes dotsAnimation {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
 
 .icon-cube {
     top: -0.8em;
