@@ -170,7 +170,7 @@
 }
 
 .user-image {
-    padding: 1.5rem;
+    padding: 2.3rem;
     filter: grayscale(1);
     transition: all 1s;
     animation: scaleImage 5s linear infinite;
@@ -259,14 +259,14 @@
 .icon-zigzak {
     z-index: 10;
     top: 1.5em;
-    left: -0.3em;
+    left: -1.3em;
     animation: zigzakAnimation 5s ease-in infinite;
 }
 
 @keyframes zigzakAnimation {
     50% {
         top: 2%;
-        left: 5%;
+        left: 3%;
     }
 }
 
