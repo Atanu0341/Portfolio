@@ -275,7 +275,7 @@
     top: -0.8rem;
     left: 50%;
     animation: shakeEffectPlus 5s ease-in infinite;
-    
+
 }
 
 @keyframes shakeEffectPlus {
@@ -289,7 +289,23 @@
 
 /* Project Section Start */
 
-.projects{
+.projects {
     margin-top: 4rem;
     background-color: #e7e7e7;
+}
+
+.page-header {
+    padding-top: 30px;
+    color: rgb(236, 87, 17);
+    text-align: center;
+    font-size: 90px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin: 0 auto;
+    padding: 3rem 0;
+    max-width: 1200px;
 }
