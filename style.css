@@ -85,8 +85,8 @@
 .faded-text {
     user-select: none;
     font-size: 7rem;
-    color: gray;
-    bottom: -16%;
+    color: #d7d4d4c7;
+    bottom: -15%;
     z-index: -0;
     left: -5%;
     font-weight: bold;
@@ -283,4 +283,13 @@
         top: 3%;
         left: 48%;
     }
+}
+
+/* Right Side End */
+
+/* Project Section Start */
+
+.projects{
+    margin-top: 4rem;
+    background-color: #e7e7e7;
 }
