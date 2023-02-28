@@ -310,11 +310,15 @@
     max-width: 1200px;
 }
 
-.project-card{
+.project-card {
     width: 90%;
-
+    height: 560px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 40px black;
 }
 
-#project1{
+#project1 {
     background-image: url(./images/flipkart-image.png);
 }
