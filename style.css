@@ -343,7 +343,7 @@
     right: 0;
     bottom: 0;
     transform: scaleX(0);
-    transform-origin: center;
+    transform-origin: left;
     transition: all 0.4s;
 }
 
@@ -455,4 +455,13 @@
 
 #project1 {
     background-image: url(./images/flipkart-image.png);
+}
+
+#project2 {
+    background-image: url(./images/project2.png);
+    margin-left: 120px;
+}
+
+#project3 {
+    background-image: url(./images/project3.png);
 }
