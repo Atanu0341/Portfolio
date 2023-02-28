@@ -402,6 +402,57 @@
     align-items: center;
 }
 
+.icon{
+    cursor: pointer;
+    font-size: 35px;
+    transition: all 0.4s;
+    color: #fff;
+}
+
+.icon:hover{
+    color: #e84949;
+}
+
+.project-number{
+    position: absolute;
+    font-size: 200px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    display: none;
+    z-index: 10;
+    transition-delay: 1s;
+    transition: transform 2s;
+}
+
+.project-number-left{
+    right: -40px;
+    top: -45px;
+}
+
+.project-number-right{
+    left: -40px;
+    top: -45px;
+}
+
+.project-card:hover .project-number{
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+.project-skill-container{
+    max-width: 60%;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    transition: all 0.2s;
+    border-radius: 5px;
+}
+
+.project-skill{
+    width: 40px;
+}
+
 #project1 {
     background-image: url(./images/flipkart-image.png);
 }
