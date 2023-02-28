@@ -332,6 +332,21 @@
     transform: scaleX(1);
 }
 
+.project-card::before{
+    content: "";
+  color: #fff;
+  position: absolute;
+  background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: all 0.4s;
+}
+
 #project1 {
     background-image: url(./images/flipkart-image.png);
 }
