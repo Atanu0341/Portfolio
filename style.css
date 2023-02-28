@@ -309,3 +309,12 @@
     padding: 3rem 0;
     max-width: 1200px;
 }
+
+.project-card{
+    width: 90%;
+
+}
+
+#project1{
+    background-image: url(./images/flipkart-image.png);
+}
