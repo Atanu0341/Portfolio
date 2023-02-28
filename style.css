@@ -387,7 +387,20 @@
     font-style: italic;
 }
 
+.btn-project{
+    border: none;
+    font-weight: 500;
+}
 
+.btn-project:hover{
+    border: none;
+}
+
+.btn-group{
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
 
 #project1 {
     background-image: url(./images/flipkart-image.png);
