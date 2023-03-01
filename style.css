@@ -379,12 +379,14 @@
     font-size: 50px;
     font-weight: bold;
     line-height: 3rem;
+    color: white;
 }
 
 .project-sub-heading {
     font-size: 16px;
     width: 70%;
     font-style: italic;
+    color: white;
 }
 
 .btn-project {
@@ -402,7 +404,7 @@
     align-items: center;
 }
 
-.icon {
+/* .icon {
     cursor: pointer;
     font-size: 35px;
     transition: all 0.4s;
@@ -411,7 +413,7 @@
 
 .icon:hover {
     color: #e84949;
-}
+} */
 
 .project-number {
     position: absolute;
