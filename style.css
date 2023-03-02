@@ -482,3 +482,18 @@
     margin: 10rem auto;
     gap: 30px;
 }
+
+.skill-fade-text {
+    font-size: 15em;
+    font-weight: bold;
+    bottom: -11%;
+    color: #d7d4d4c7;
+    right: -5%;
+    user-select: none;
+}
+
+.skill-container-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
