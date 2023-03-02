@@ -223,12 +223,13 @@
                         <input type="text" class="formfield" name="subject" placeholder="Enter your subject">
                     </div>
                     <div class="formfield-container">
-                        <input type="text" class="formfield formfield-textarea" name="message" 
-                        cols="30" rows="10" placeholder="Enter your message">
-                    </div>
-                    <div id="submit-btn" class="btn-pink" type="submit">
+                        <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+                          placeholder="Enter your message"></textarea>
+                      </div>
+
+                    <div id="submit-btn" class="btn-pink btn-project" type="submit">
                         Send Message
-                        <i class="submit-icon fa-solid fa-paper-plane"></i>
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
                     </div>
                 </form>
             </div>
@@ -236,22 +237,25 @@
     </div>
     
     <!-- Footer -->
-    <div class="container footer-wrapper">
-        <div class="footer-faded-text">
-            Atanu Majumder
+    <footer>
+        <div class="content footer-wrapper">
+            <div class="footer-faded-text">
+                Atanu Majumder
+            </div>
+            <div class="link-wrapper">
+                <div>
+                    <a href="#projects">Project</a>
+                </div>
+                <div>
+                    <a href="#skills">Skills</a>
+                </div>
+                <div>
+                    <a href="#contactme">Contact Me</a>
+                </div>
+            </div>
         </div>
-        <div class="link-wrapper">
-            <div>
-                <a href="#projects">Project</a>
-            </div>
-            <div>
-                <a href="#skills">Skills</a>
-            </div>
-            <div>
-                <a href="#contactme">Contact Me</a>
-            </div>
-        </div>
-    </div>
+    </footer>
+    
 </body>
 
 </html>
