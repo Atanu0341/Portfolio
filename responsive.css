@@ -1,0 +1,13 @@
+@media (max-width:1500px) {
+    body{
+        background-color: brown;
+    }
+
+}
+
+@media (max-width:1500px) {
+    .nav-items{
+        padding: 0 8em
+    }
+
+}
