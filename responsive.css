@@ -1,26 +1,20 @@
-@media (max-width:1500px) {
+@media (max-width: 1500px) {
     .nav-items {
         padding: 20em
     }
 
 }
 
-@media (max-width:900px) {
+@media (max-width: 1000px) {
     .nav-items {
         display: none;
-    }
-}
-
-@media (max-width:800px) {
-    .nav-logo-text{
-        margin-top: 63px;
     }
 }
 
 @media (max-width:1300px) {
     .page-header {
         padding-top: 30px;
-        color: var(--bgOrange);
+        color: orangered;
         text-align: center;
         font-size: 40px;
     }
