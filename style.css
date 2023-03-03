@@ -677,3 +677,8 @@ footer {
     color: rgb(236, 87, 17);
     text-decoration: none;
 }
+
+.footer_copy{
+    color: white;
+    text-align: center;
+}
