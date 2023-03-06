@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Dosis', sans-serif; 
+    font-family: 'Dosis', sans-serif;
 }
 
 .container {
@@ -17,7 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 16px; */
 }
 
 .logo-group {
@@ -40,6 +39,19 @@
     display: flex;
     gap: 2rem;
     padding: 0 4em;
+}
+
+@media (max-width: 1500px) {
+    .nav-items {
+        padding: 20em;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .nav-items {
+        display: none;
+    }
 }
 
 .nav-items div a {
@@ -564,7 +576,7 @@
     transition: all 0.5s;
     height: 87px;
     margin-top: 100px;
-  }
+}
 
 
 .skills-logo:hover {
@@ -681,7 +693,7 @@ footer {
     text-decoration: none;
 }
 
-.footer_copy{
+.footer_copy {
     color: white;
     text-align: center;
 }

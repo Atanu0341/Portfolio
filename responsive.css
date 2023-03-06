@@ -1,15 +1,10 @@
-@media (max-width: 1500px) {
-    .nav-items {
-        padding: 20em
-    }
 
-}
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     .nav-items {
         display: none;
     }
-}
+} */
 
 @media (max-width:1300px) {
     .page-header {
