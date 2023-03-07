@@ -43,7 +43,7 @@
 
 @media (max-width: 1500px) {
   .nav-items {
-    padding: 20em;
+    padding: 0 8em;
   }
 }
 
@@ -169,9 +169,43 @@
   color: black;
 }
 
-/* #btn-bottom {
+#btn-bottom {
+  display: none;
+}
+
+@media (max-width:1300px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: -1rem;
+    padding-bottom: 3rem;
+  }
+
+  .main-description {
+    text-align: center;
+    margin: auto;
+  }
+
+  .faded-text {
     display: none;
-} */
+  }
+
+  #btn-top {
+    display: none;
+  } 
+
+  #btn-bottom {
+    margin-top: -7rem;
+    display: block;
+  }
+
+  .main-right {
+    margin-top: -6em;
+    scale: 0.7;
+  }
+}
 
 /* Left Side End */
 
@@ -515,12 +549,13 @@
   }
 
   .project-heading {
-    font-size: 40px;
+    font-size: 50px;
     width: 100%;
   }
 
   .project-sub-heading {
     width: 100%;
+    font-size: 30px;
   }
 
   #project2 {
@@ -532,7 +567,7 @@
   }
 
   .project-skill {
-    width: 35px;
+    width: 70px;
   }
 
   .project-card:hover .project-number {
@@ -670,6 +705,7 @@
 
   .skills-logo {
     width: 50px;
+    margin-bottom: 131px;
   }
 
   .skill-fade-text {
@@ -687,9 +723,9 @@
   }
 
   .remaining2 {
-    margin-left: 3.6px;
-    margin-top: -36px;
-    font-size: 184%;
+    margin-left: 0.6px;
+    margin-top: -41px;
+    font-size: 124%;
   }
 
   .skill-heading::after {
@@ -763,6 +799,40 @@
   scale: 0.9;
 }
 
+@media (max-width: 1300px) {
+  .contactus-heading {
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 10px;
+  }
+
+  .contactus-sub-heading {
+    font-size: 20px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .form {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+
+  .formfield-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+
+  .formfield {
+    width: 90%;
+  }
+
+  #submit-btn {
+    margin-bottom: 16px;
+  }
+}
+
 /* Contact us End */
 
 /* Footer Start */
@@ -811,4 +881,19 @@ footer {
 .footer_copy {
   color: white;
   text-align: center;
+}
+
+@media (max-width: 1300px) {
+  footer {
+    padding: 0.5rem;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer-faded-text {
+    display: none;
+  }
 }
