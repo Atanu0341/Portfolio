@@ -448,7 +448,7 @@
   align-items: center;
 }
 
-/* .icon {
+ .icon {
     cursor: pointer;
     font-size: 35px;
     transition: all 0.4s;
@@ -457,7 +457,7 @@
 
 .icon:hover {
     color: #e84949;
-} */
+} 
 
 .project-number {
   position: absolute;
@@ -876,6 +876,11 @@ footer {
 .link-wrapper div a:hover {
   color: rgb(236, 87, 17);
   text-decoration: none;
+}
+
+.icon-wrapper {
+  display: flex;
+  gap: 1rem;
 }
 
 .footer_copy {
