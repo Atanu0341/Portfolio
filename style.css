@@ -194,7 +194,7 @@
 
   #btn-top {
     display: none;
-  } 
+  }
 
   #btn-bottom {
     margin-top: -7rem;
@@ -448,16 +448,16 @@
   align-items: center;
 }
 
- .icon {
-    cursor: pointer;
-    font-size: 35px;
-    transition: all 0.4s;
-    color: #fff;
+.icon {
+  cursor: pointer;
+  font-size: 35px;
+  transition: all 0.4s;
+  color: #fff;
 }
 
 .icon:hover {
-    color: #e84949;
-} 
+  color: #e84949;
+}
 
 .project-number {
   position: absolute;
@@ -496,7 +496,9 @@
 }
 
 .project-skill {
-  width: 40px;
+  width: 81px;
+  height: 90px;
+  margin-top: 96px;
 }
 
 #project1 {
